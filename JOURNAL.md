@@ -14,3 +14,17 @@ The public methods in the files under core/services don't have docstrings to exp
 **Setup confirmation:** [X] App runs locally at localhost:5173
 
 **Cohort ledger:** [X] Issue added to cohort ledger
+
+## Week 8 — Reproduction & solution planning
+
+**Reproduction commit link:** https://github.com/SahilMulki/pathreview/commit/6ea4b55a3e3c5b249c81aa15fe9d7cd4fbb02461
+
+**Reproduction summary:**
+This issue is a documentation issue, so it can't be reproduced in any traditional sense. This issue relates to the lack of inline docstrings for any methods in profile_service.py and review_service.py.
+
+**PLAN.md link:** [PLAN.md](./PLAN.md)
+
+**Walkthrough video (recommended):**
+
+**Blockers or open questions:**
+None
