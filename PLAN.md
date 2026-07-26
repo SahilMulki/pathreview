@@ -34,9 +34,9 @@ My fix takes no inputs or outputs because it is just documentation. However what
 ### Risks & unknowns
 
 What could go wrong? What are you still unsure about?
-If I misunderstand the purpose or how a method works I could write a misleading docstring. I need to make sure that I avoid this by spending time reading the code to understand what each line does. I'm still unsure about what level of detail is expected for a docstring.
+If I misunderstand the purpose or how a method works I could write a misleading docstring. For example review_service.py has async errors that are complex and difficult to explain correctly. I need to make sure that I avoid this by spending time reading the code to understand what each line does. I'm still unsure about what level of detail is expected for a docstring.
 
 ### Edge cases
 
 What inputs or states should your fix handle gracefully?
-An edge case I should consider is that this repo is constantly being updated and worked on because its open source so I need to write my docstrings so they are understandable even if there changes made to how other parts of the project work. Another edge case my fix must handle gracefully is explaining the various failure modes of functions because lots of the functions in the core/services methods have complex failure modes that involve async programming.
+My docstring must do a good job at explaining the various failure modes of functions because in many cases the methods have complex failure modes. One example is an execption that gets thrown in profile_service.get_profile() when the profile doesn't exist. Another example is documenting how in review_service.py the submit_review() function will give an error when the external API times out.
