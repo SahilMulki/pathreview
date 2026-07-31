@@ -9,7 +9,7 @@
 **Problem summary:**
 The public methods in the files under core/services don't have docstrings to explain what they do, what arguments they take, what they return, and any errors they may raise. A successful fix would make these methods easier to understand for any person who will later maintain this code base or needs to change any files/functionality in core/services. This problem affects the services layer of the code, but this fix is more important for maintainability down the line. I picked this problem because when I'm coding individually I normally don't put much effort into documentation. I think that getting practice with adding documentation to methods is going to be helpful for me if I work on a team at my work in the future.
 
-**Branch name:** docs/110-services-methods-missing-docstrings
+**Branch name:** docs/119-services-methods-missing-docstrings
 
 **Setup confirmation:** [X] App runs locally at localhost:5173
 
@@ -39,15 +39,15 @@ So far I've done the first two steps of my plan. The first step was to read and 
 **Next steps:**
 For the rest of the week I will work on actually writing the docstrings. Then once they are written I will write tests and make sure that all tests pass. Then I will create a pull request and submit.
 
-**Blockers:**
+**Blockers:** none
 
 ---
 
 ### Check-in 2 (end of week)
 
-**PR link:** [link to your submitted pull request]
+**PR link:** https://github.com/ascherj/pathreview/pull/475
 
-**Branch:** docs/110-services-methods-missing-docstrings
+**Branch:** docs/119-services-methods-missing-docstrings
 
 **What you built:**
 I added complete inline docstrings to profile_service.py and review_service.py. These docstrings are the full Google-style docstrings with Args:, Returns:, and Raises:. These docstrings also document the behavior of the method.
