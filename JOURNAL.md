@@ -58,3 +58,38 @@ I added a test under tests/unit/test_service_docstrings.py. This test checks all
 **Self-review confirmation:** [X] make check passes [X] make test-unit passes
 
 **Draft PR feedback received from:** none
+
+## Week 10 — Iteration & reflection
+
+### Reviewer feedback
+
+**Feedback received:** [ ] Yes [X] No — still awaiting review
+
+**Summary of feedback:**
+[What did reviewers comment on? Or note that no review came in.]
+None
+
+**How you responded:**
+[What changes did you make, or what did you reply? If no feedback,
+leave blank.]
+None
+
+---
+
+### Reflection
+
+**What was harder than you expected?**
+I was surprised by the importance of docstirngs. Usually in my own code I don't spend much time to think about adding docstrings or other forms of documentation. Through this project I've learned a lot about the importance of documentation for readability and maintainability of code. It was also surprising how difficult it can be to understand someone else's code when there isn't sufficient documentation. For example some functions in core/services that I had to write doctrings for like delete_profile or process_review were complex and required understanding of the entire project.
+
+**What did you learn about working in a large codebase?**
+When contributing to someone else's production code you have to try to match their style and conventions as best you can. This makes your code easier to understand in the context of the whole repo. When I'm building my own project I set my own style and conventions.
+
+**How did AI tools help — and where did they fall short?**
+AI assistant was most useful in help to proofread and edit my docstrings. I needed to go beyond what AI could give me in the sense that I had to write the docstrings myself according to the Google conventions for docstrings which was required by the problem spec on GitHub. I also used AI to help understand the functions like list_reviews and get_review so that my docstring were more accurate.
+
+**What would you do differently if you started over?**
+If I started over I think that I would spend more time at the start reading through the code base so that I could better understand the style and conventions of the docstrings expected. Doing this before I started reading and trying to understand the functions I needed to add docstrings to would have saved me time. That's because I would have known better what I need to be on the look out for when readin the functions because I know what the docstring needs to contain (ex. inputs, outputs, error cases, etc.).
+
+**What are you most proud of from this module?**
+[One thing — it doesn't have to be the PR itself.]
+I'm most proud of learning more about the importance of documentation and how to write good documentation. I think that strong documentation in my work will make me a better programmer. I believe that writing accurate docstrings is an often overlooked part of programming.
